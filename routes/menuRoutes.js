@@ -11,7 +11,7 @@ route.get('/', async (req, res) => {
     console.log(err);
     res.status(500).json({ error: "Internal Server Error" });
   }
-});
+});//hola
 route.post('/', async(req,res)=>{
   try{
     const data=req.body;//data will get whatever is in req body
